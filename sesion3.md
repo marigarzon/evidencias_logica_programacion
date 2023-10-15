@@ -51,5 +51,42 @@ public class Actividad_sesion3 {
 }
 ```
 
+### segundo codigo
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+public class Actividad_sesion3 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Introduce el primer número entero: ");
+        int numero1 = scanner.nextInt();
+        
+        System.out.print("Introduce el segundo número entero: ");
+        int numero2 = scanner.nextInt();
+        
+        int suma = numero1 + numero2;
+        int multiplicacion = numero1 * numero2;
+        
+        System.out.println("La suma de los números es: " + suma);
+        System.out.println("La multiplicación de los números es: " + multiplicacion);
+    }
+}
+```
 
