@@ -25,5 +25,31 @@
 8.Operador ternario: Escribe un programa que tome un número entero ingresado por el usuario y utilice el operador ternario para determinar si el número es positivo o negativo. Luego, muestra el resultado en la salida.
 
 
+### primer codigo
+```
+public class Actividad_sesion3 {
+
+    public static void main(String[] args) {
+       
+         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("¿El estudiante tiene beca? (true/false): ");
+        boolean tieneBeca = scanner.nextBoolean();
+
+        System.out.print("¿La carrera del estudiante está relacionada con desarrollo de software? (true/false): ");
+        boolean carreraDesarrolloSoftware = scanner.nextBoolean();
+
+        boolean cumpleCondiciones = tieneBeca || carreraDesarrolloSoftware;
+
+        if (cumpleCondiciones) {
+            System.out.println("El estudiante tiene una beca o está en una carrera relacionada con desarrollo de software.");
+        } else {
+            System.out.println("El estudiante no cumple ninguna de las condiciones.");
+        }
+
+    }
+}
+```
+
 
 
