@@ -12,7 +12,7 @@
 
 **Ejemplo Array**
 
-```
+```java
 import java.util.Arrays;
 
 public class EjercicioArray {
@@ -49,7 +49,7 @@ public class EjercicioArray {
 
 El codigo java realiza 2 tareas:
 
-```
+```java
 // Calcular la suma de los elementos del array
         int suma = 0;
         for (int i = 0; i < numeros.length; i++) 
@@ -62,7 +62,7 @@ Calcula la suma de los elementos en esa matriz y luego imprime el resultado de l
 Esta línea imprime el contenido del array números. Utiliza Arrays.toString(números)para convertir el array en una cadena de caracteres legibles que muestra todos los elementos del array. La salida será algo como:
 Luego, el código procede a calcular la suma de los elementos en el array:
 
-```
+```java
  // Encontrar el número más grande en el array
         int maximo = numeros[0];
         for (int i = 1; i < numeros.length; i++) {
@@ -76,7 +76,7 @@ Luego, el código procede a calcular la suma de los elementos en el array:
 El código funciona recorriendo un array para comparar cada iteración con una variable llamada máximo para así poder mantener un registro del número más grande que se encuentra hasta el momento.
 En resumen, este código es una forma válida de encontrar el número más grande en un array en Java y funcionará correctamente siempre que el array contenga al menos un elemento.
 
-```
+```java
 // Ordenar el array en orden ascendente
         Arrays.sort(numeros);
         System.out.println("Array ordenado: " + Arrays.toString(numeros));
@@ -86,7 +86,7 @@ Este código se utiliza para ordenar el array numeros en orden ascendente, para 
 
 **Ejemlo Arraylist**
 
-```
+```java
 import java.util.ArrayList; 
 import java.util.Scanner;
 
@@ -143,7 +143,7 @@ public class AppNotas {
 
 **Descripcion**
 
-```
+```java
 import java.util.ArrayList; 
 import java.util.Scanner;
 
@@ -187,7 +187,7 @@ Las funciones `agregarNota()` y `mostrarNotas()` son simples. `agregarNota()` pe
 
 ## Ejercicio Array
 
-```
+```java
 public class Sesion7 {
 
     public static void main(String[] args) {
