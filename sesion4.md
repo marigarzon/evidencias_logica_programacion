@@ -46,7 +46,7 @@ Con la información anterior, implementa los siguientes ejercicios:
 
 
 ## 1
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -78,7 +78,7 @@ public class Mariana_sesion4 {
 ```
 
 ## 2
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -109,7 +109,7 @@ public class Mariana_sesion4 {
 ```
 
 ## 3
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -139,7 +139,7 @@ public class Mariana_sesion4 {
 ```
 
 ## 4
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -170,7 +170,7 @@ public class Mariana_sesion4 {
 
 ## 5
 
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -206,7 +206,7 @@ public class Mariana_sesion4 {
 ```
 ## 6
 
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {
@@ -242,7 +242,7 @@ public class Mariana_sesion4 {
 ```
 
 ## 7
-```
+```java
 public class Mariana_sesion4 {
 
     public static void main(String[] args) {

@@ -26,7 +26,7 @@
 
 
 ### Primer codigo
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class Actividad_sesion3 {
 
 ### Segundo codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -77,7 +77,7 @@ public class Actividad_sesion3 {
 
 ### Tercer codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -110,7 +110,7 @@ public class Actividad_sesion3 {
 
 ### Cuarto codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -141,7 +141,7 @@ public class Actividad_sesion3 {
 
 ### Quinto codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -164,7 +164,7 @@ public class Actividad_sesion3 {
 
 ### Sexto codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -184,7 +184,7 @@ public class Actividad_sesion3 {
 
 ### Septimo codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
@@ -217,7 +217,7 @@ public class Actividad_sesion3 {
 
 ### Octavo codigo
 
-```
+```java
 public class Actividad_sesion3 {
 
     public static void main(String[] args) {
