@@ -52,3 +52,44 @@ La función de este código es calcular la media y la desviación estándar de u
  el propósito de este código es realizar análisis estadísticos simples de un conjunto de datos ingresados por el usuario para proporcionar información sobre cómo están distribuidos estos datos.
 
 
+
+
+**segundo codigo**
+ ```java
+ import java.util.Scanner;
+
+public class CantidadLadrillos {
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      double largo, alto, ancho, areaPared, cantidadLadrillos, largoLadrillo, altoLadrillo, anchoLadrillo;
+      
+      // Solicita las dimensiones de la pared
+      System.out.print("Ingrese el largo de la pared en metros: ");
+      largo = input.nextDouble();
+      System.out.print("Ingrese el alto de la pared en metros: ");
+      alto = input.nextDouble();
+      System.out.print("Ingrese el ancho de la pared en metros: ");
+      ancho = input.nextDouble();
+
+      // Solicita las dimensiones del ladrillo
+      System.out.print("Ingrese el largo del ladrillo en metros: ");
+      largoLadrillo = input.nextDouble();
+      System.out.print("Ingrese el alto del ladrillo en metros: ");
+      altoLadrillo = input.nextDouble();
+      System.out.print("Ingrese el ancho del ladrillo en metros: ");
+      anchoLadrillo = input.nextDouble();
+
+      // Calcula el área de la pared y del ladrillo
+      areaPared = largo * alto;
+      double areaLadrillo = largoLadrillo * altoLadrillo;
+
+      // Calcula la cantidad de ladrillos necesarios
+      cantidadLadrillos = Math.ceil(areaPared / (areaLadrillo * ancho / anchoLadrillo));
+
+      // Muestra el resultado en la consola
+      System.out.printf("Para construir la pared se necesitan %.0f ladrillos.", cantidadLadrillos);
+   }
+}
+ ```
+
+
